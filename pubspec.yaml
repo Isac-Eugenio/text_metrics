@@ -3,6 +3,7 @@ description: Biblioteca para métricas e análise de texto em Dart.
 version: 0.0.1
 homepage: https://github.com/Isac-Eugenio/text_metrics
 repository: https://github.com/Isac-Eugenio/text_metrics
+license: "Proprietary"
 
 environment:
   sdk: ">=3.10.7 <4.0.0"
@@ -10,3 +11,4 @@ environment:
 dev_dependencies:
   lints: ^6.0.0
   test: ^1.25.6
+
