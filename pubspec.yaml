@@ -1,14 +1,11 @@
 name: text_metrics
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: Biblioteca para métricas e análise de texto em Dart.
+version: 0.0.1
+homepage: https://github.com/Isac-Eugenio/text_metrics
+repository: https://github.com/Isac-Eugenio/text_metrics
 
 environment:
-  sdk: ^3.10.7
-
-# Add regular dependencies here.
-dependencies:
-  # path: ^1.9.0
+  sdk: ">=3.10.7 <4.0.0"
 
 dev_dependencies:
   lints: ^6.0.0

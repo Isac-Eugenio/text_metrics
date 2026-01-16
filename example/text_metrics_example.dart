@@ -9,13 +9,13 @@ void main() {
   ''';
 
   final metrics = TextMetrics(text);
+print('Linhas totais: ${metrics.lines.lineCount}');
+print('Linhas não vazias: ${metrics.lines.nonEmptyLineCount}');
+print('Linhas vazias: ${metrics.lines.emptyLineCount}');
+print('Maior linha: ${metrics.lines.longestLineLength}');
+print('Menor linha (não vazia): ${metrics.lines.shortestNonEmptyLineLength}');
 
-  print('Linhas totais: ${metrics.lineCount}');
-  print('Linhas não vazias: ${metrics.nonEmptyLineCount}');
-  print('Linhas vazias: ${metrics.emptyLineCount}');
-  print('Maior linha: ${metrics.longestLineLength}');
-  print('Menor linha (não vazia): ${metrics.shortestNonEmptyLineLength}');
-  print('Sem pontuação: ${metrics.withoutPunctuation}');
-  print('Apenas letras: ${metrics.onlyLetters}');
-  print('Normalizado ASCII: ${metrics.normalizedAscii}');
+print('Sem pontuação: ${metrics.normalize.withoutPunctuation}');
+print('Apenas letras: ${metrics.normalize.onlyLetters}');
+print('Normalizado ASCII: ${metrics.normalize.normalizedAscii}');
 }

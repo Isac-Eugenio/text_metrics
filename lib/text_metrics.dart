@@ -1,8 +1,7 @@
-/// Support for doing something awesome.
+/// Text Metrics
 ///
-/// More dartdocs go here.
+/// Biblioteca para análise de texto: linhas, palavras, caracteres,
+/// vogais/consoantes, normalizações e muito mais.
 library;
 
 export 'src/text_metrics_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
